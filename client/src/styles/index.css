@@ -1,0 +1,7 @@
+.counter {
+	display: flex;
+	width: fit-content;
+
+	border: 1px solid rgb(168, 168, 168);
+	border-radius: 5px;
+}
