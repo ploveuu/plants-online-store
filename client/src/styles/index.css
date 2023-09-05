@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+@font-face {
+    font-family: "DRUZHOK";
+    src: url("fonts/DRUZHOK.otf") format("OpenType");
+}
+
+@font-face {
+    font-family: "TenorSans-Regular";
+    src: url("fonts/TenorSans-Regular.ttf") format("TrueType");
+}
+
+
+body {
+    font-family: 'TenorSans-Regular';
+}    
+
+.counter {
+	display: flex;
+	width: fit-content;
+
+	border: 1px solid rgb(168, 168, 168);
+	border-radius: 5px;
+}
+
+.navbar {
+    background-color: #405942;
+}
+
+.navbar-brand
+{
+    cursor: pointer;
+    font-family: "DRUZHOK";
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin-right: 0;
+    margin-left: 5%;
+}
+
+.navbar-brand:hover
+{
+    color: #172619;
+    transform: scale(1.09);
+}
+
+button:hover {
+    transform: scale(1.09);
+}
+
+/* SHOP */
+
+.scale:hover {
+    transform: scale(1.17);
+    transition: 1s;
+} 
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #678C61; 
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover {
+    color: #405942; 
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #678C61;
+    border-color: #678C61;
+    color:#fff
+}
+
+.list-group-item:hover {
+    transform: scale(1.09);
+    transition: 0.8s;
+    background-color: #405942;
+    color: #fff
+}
+
+.list-group-item.active {
+    background-color: #405942;
+    border-color: #405942;
+} 
+
+        /* RADIO */
+
+.form-check {
+    border-radius: 50px;
+    background-color: #678C61;
+    padding: 10px 20px 10px 30px;
+    margin: 0px 5px;
+    color: #fff;
+}
+
+.form-check:hover {
+    transform: scale(1.09);
+    transition: 0.8s;
+    background-color: #405942;
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: #405942;
+    border-color: #405942;
+}
+
+.form-check-input:active {
+    background-color: #405942;
+    border-color: #405942;
+}
+
+.form-check .form-check-input {
+    margin-left: -1.3em;
+}
+
+/* ADMIN */
+
+.admin-button:hover {
+    background-color: #405942;
+}
+
+.dropdown-toggle {
+    background-color: #678C61;
+    border-color: #678C61;
+}
+
+.dropdown-toggle:hover {
+    background-color: #405942;
+    border-color: #405942;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #678C61;
+}
+
+.footer {
+    background-color: #172619;
+    color:#678C61;
+    font-family: 'TenorSans-Regular';
+}
+
+.footer-title {
+    font-family: "DRUZHOK";
+    letter-spacing: 8px;
+    font-size: 20px;
+    color: #b1ccac;
+}
+
+.device-section {
+    min-height: 670px;
+}
+
+.info-title {
+    color: #b1ccac;
+}
